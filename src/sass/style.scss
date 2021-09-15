@@ -1,0 +1,12 @@
+// custom
+$colour-secondary: #767676;
+$colour-primary: #E92569;
+$colour-nav: #efefef;
+
+// bootstrap
+$theme-colors:(
+    "primary": $colour-primary,
+    "dark": $colour-nav,
+);
+
+@import "~bootstrap/scss/bootstrap";
