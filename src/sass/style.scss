@@ -1,7 +1,12 @@
 // custom
+
+
 $colour-secondary: #767676;
 $colour-primary: #E92569;
 $colour-nav: #efefef;
+$colour-bg: #E5E5E5;
+$colour-box-shadow: #C7C7C7;
+
 
 // bootstrap
 $theme-colors:(
@@ -9,4 +14,15 @@ $theme-colors:(
     "dark": $colour-nav,
 );
 
+$headings-font-family: "Playfair Display", serif;
+$font-family-base: 'Lato', sans-serif; 
+
 @import "~bootstrap/scss/bootstrap";
+@import "./partials/tabs";
+@import "./partials/typography";
+@import "./partials/accordion";
+@import "./partials/nav";
+
+body{
+    background-color: $colour-bg;
+};

@@ -1,0 +1,23 @@
+.card-header{
+    background-color: white;
+    margin-top: -2px;
+}
+
+
+.btn{
+    &.btn-link{
+        text-decoration: none;
+        color: $colour-primary;
+        font-size: 19px;
+    }
+}
+
+.collapse.show{
+    border-top: 2px $colour-primary solid;
+}
+
+.card-body{
+    background: $colour-nav;
+    padding: 25px;
+}
+
