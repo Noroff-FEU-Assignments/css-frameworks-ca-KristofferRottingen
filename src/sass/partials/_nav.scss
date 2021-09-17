@@ -1,9 +1,14 @@
+.navbar{
+    padding: 20px 0px;
+}
+
 .navbar-light .navbar-brand{
     color: $colour-primary;
     font-family: $headings-font-family;
     font-size: 20px;
     font-weight: bold;
     font-style: italic;
+    margin-right: 30px;
 }
 
 .navbar-light .navbar-toggler{
@@ -11,6 +16,61 @@
     color: transparent;
 }
 
-.nav-link.active{
-    background-color: white;
+.nav-link{
+    margin-right: 20px;
+    &.active{
+        background-color: white;
+        border-radius: 6px;
+    }
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: black;
+
+    &:hover{
+        background-color: white;
+        border-radius: 6px;
+        color: black;
+    }
+}
+
+.nav-links{
+    display: flex;
+    flex-direction: row;
+
+    @media (max-width: 991px){
+        flex-direction: column;
+    }
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    width: 90%;
+    justify-content: space-between;
+}
+
+
+.form-search{
+    display: flex;
+    flex-direction: row;
+
+    @media (max-width: 991px) {
+        margin-top: 20px;
+    }
+}
+
+.nav-button{
+    color: white;
+    background-color: $colour-primary;
+    font-family: $font-family-base;
+    border-radius: 0 6px 6px 0;
+}
+
+.form-control{
+    border-radius: 0;
+    border: white;
 }

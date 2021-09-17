@@ -14,10 +14,24 @@
 
 .collapse.show{
     border-top: 2px $colour-primary solid;
+
+    @media (min-width: 991px){
+        border-top: none;
+    }
 }
 
 .card-body{
     background: $colour-nav;
     padding: 25px;
+}
+
+.accrodion-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icons-accordion{
+    padding-top: 20px;
 }
 

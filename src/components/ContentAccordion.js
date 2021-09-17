@@ -2,6 +2,9 @@ import React from 'react';
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
+import TabImage1 from "../Images/Tab images/tab-1.jpg";
+import TabImage2 from "../Images/Tab images/tab-2.jpg";
+import TabImage3 from "../Images/Tab images/tab-3.jpg";
 
 function ContentAccordion() {
     return (
@@ -15,13 +18,14 @@ function ContentAccordion() {
                     </Card.Header>
                     <Accordion.Collapse eventKey="0">
                         <Card.Body>
-
-                            <div>
+                            <div className="accrodion-content">
                                 <p>Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus. </p>
-
-                                <i>#</i>
-                                <i>#</i>
-                                <i>#</i>
+                                <img src={TabImage1} className="tab-img" alt="tab-img" />
+                                <div className="icons-accordion">
+                                    <i>SHARE</i>
+                                    <i class="fab fa-facebook-f"></i>
+                                    <i class="fab fa-twitter"></i>
+                                </div>
                             </div>
                         </Card.Body>
                     </Accordion.Collapse>
@@ -34,14 +38,16 @@ function ContentAccordion() {
                     </Card.Header>
                     <Accordion.Collapse eventKey="1">
                         <Card.Body>
-
-                            <div>
+                            <div className="accrodion-content">
                                 <p>Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus. </p>
-
-                                <i>#</i>
-                                <i>#</i>
-                                <i>#</i>
-                            </div></Card.Body>
+                                <img src={TabImage2} className="tab-img" alt="tab-img" />
+                                <div className="icons-accordion">
+                                    <i>SHARE</i>
+                                    <i class="fab fa-facebook-f"></i>
+                                    <i class="fab fa-twitter"></i>
+                                </div>
+                            </div>
+                        </Card.Body>
                     </Accordion.Collapse>
                 </Card>
                 <Card>
@@ -52,12 +58,14 @@ function ContentAccordion() {
                     </Card.Header>
                     <Accordion.Collapse eventKey="2">
                         <Card.Body>
-                            <div>
+                            <div className="accrodion-content">
                                 <p>Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus. </p>
-
-                                <i>#</i>
-                                <i>#</i>
-                                <i>#</i>
+                                <img src={TabImage3} className="tab-img" alt="tab-img" />
+                                <div className="icons-accordion">
+                                    <i>SHARE</i>
+                                    <i class="fab fa-facebook-f"></i>
+                                    <i class="fab fa-twitter"></i>
+                                </div>
                             </div>
                         </Card.Body>
                     </Accordion.Collapse>

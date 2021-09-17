@@ -19,9 +19,10 @@ $font-family-base: 'Lato', sans-serif;
 
 @import "~bootstrap/scss/bootstrap";
 @import "./partials/tabs";
+@import "./partials/nav";
 @import "./partials/typography";
 @import "./partials/accordion";
-@import "./partials/nav";
+
 
 body{
     background-color: $colour-bg;

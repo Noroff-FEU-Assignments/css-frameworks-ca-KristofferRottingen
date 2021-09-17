@@ -14,13 +14,15 @@ function ContentNav() {
                     <Navbar.Brand href="#home">The YAY Company</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
-                        <Nav className="me-auto">
-                            <Nav.Link href="#home">Home</Nav.Link>
-                            <Nav.Link href="#news">News</Nav.Link>
-                            <Nav.Link href="#contact">Contact</Nav.Link>
+                        <Nav>
+                            <div className="nav-links">
+                                <Nav.Link className="active" href="#home">Home</Nav.Link>
+                                <Nav.Link href="#news">News</Nav.Link>
+                                <Nav.Link href="#contact">Contact</Nav.Link>
+                            </div>
                             <Form inline className="form-search">
                                 <Form.Control type="text" placeholder="Search" className="mr-sm-2" />
-                                <Button variant="outline-success">Go</Button>
+                                <Button className="nav-button" variant="outline-success">Go</Button>
                             </Form>
                         </Nav>
                     </Navbar.Collapse>
