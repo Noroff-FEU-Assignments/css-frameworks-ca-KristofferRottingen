@@ -1,0 +1,25 @@
+.carousel {
+    ol {
+      li {
+        background-color: white;
+        height: 30px;
+        width: 30px;
+        margin: 0 10px 20px 10px;
+        border-radius: 2px;
+  
+        &.active {
+          background-color: $colour-primary;
+        }
+
+        @media (max-width: 991px){
+            margin: 0 10px;
+        }
+      }
+    }
+
+
+}
+
+.carousel-control-prev, .carousel-control-next{
+    display: none;
+}
