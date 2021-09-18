@@ -6,7 +6,7 @@ import TabImage1 from "../Images/Tab images/tab-1.jpg";
 import TabImage2 from "../Images/Tab images/tab-2.jpg";
 import TabImage3 from "../Images/Tab images/tab-3.jpg";
 
-function ContentAccordion() {
+function AccordionContent() {
     return (
         <>
             <Accordion defaultActiveKey="0" className="d-md-none">
@@ -75,4 +75,4 @@ function ContentAccordion() {
     )
 }
 
-export default ContentAccordion
+export default AccordionContent

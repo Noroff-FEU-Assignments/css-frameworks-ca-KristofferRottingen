@@ -2,10 +2,10 @@ import React from 'react';
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import ContentTabs from './ContentTabs';
-import ContentNav from './ContentNav';
-import ContentCarousel from './ContentCarousel';
-import ContentAccordion from './ContentAccordion';
+import ContentTabs from "./ContentTabs";
+import ContentNav from "./ContentNav";
+import ContentCarousel from "./ContentCarousel";
+import AccordionContent from "./AccordionContent";
 
 
 function Home() {
@@ -20,7 +20,7 @@ function Home() {
             <Container>
                 <Row>
                     <Col>
-                        <ContentAccordion />
+                        <AccordionContent />
                         <div className="d-none d-md-block">
                             <ContentTabs />
                         </div>
