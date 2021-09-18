@@ -1,0 +1,24 @@
+.col{
+    padding: 20px 12px;
+
+    .card{
+        height: 394px;
+        border-radius: 10px;
+        box-shadow: 0 6px 10px $colour-box-shadow;
+
+        img{
+            border-radius: 10px 10px 0 0; 
+        }
+    }
+}
+
+
+
+.card-body{
+    p{
+        font-size: 18px;
+        padding: 19px 0px;
+    }
+
+    
+}

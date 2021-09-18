@@ -1,10 +1,11 @@
 import React from 'react'
+import Pagination from "react-bootstrap/Pagination";
 
-function Pagination() {
+function ContentPagination() {
     return (
         <>
             <Pagination>
-                <Pagination.Item>{1}</Pagination.Item>
+                <Pagination.Item active>{1}</Pagination.Item>
                 <Pagination.Item>{2}</Pagination.Item>
                 <Pagination.Item>{3}</Pagination.Item>
                 <Pagination.Item>{4}</Pagination.Item>
@@ -13,4 +14,4 @@ function Pagination() {
     )
 }
 
-export default Pagination
+export default ContentPagination

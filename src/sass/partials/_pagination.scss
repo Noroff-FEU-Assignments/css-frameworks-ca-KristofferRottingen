@@ -1,0 +1,15 @@
+.pagination{
+    padding-top: 39px;
+}
+
+
+.page-link{
+    color: $colour-primary;
+    border: 1px solid $colour-primary;
+    padding: 6px 15px;
+}
+
+.page-item.active .page-link{
+    border-color: $colour-primary;
+    background-color: $colour-primary;
+}
