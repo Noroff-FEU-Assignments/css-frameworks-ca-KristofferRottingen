@@ -1,8 +1,8 @@
 import React from 'react'
 import Carousel from "react-bootstrap/Carousel";
-import CarouselImg1 from "../Images/Carousel images/carousel-1.jpg";
-import CarouselImg2 from "../Images/Carousel images/carousel-2.jpg";
-import CarouselImg3 from "../Images/Carousel images/carousel-3.jpg";
+import CarouselImg1 from "../../Images/Carousel images/carousel-1.jpg";
+import CarouselImg2 from "../../Images/Carousel images/carousel-2.jpg";
+import CarouselImg3 from "../../Images/Carousel images/carousel-3.jpg";
 
 function ContentCarousel() {
     return (
@@ -34,4 +34,4 @@ function ContentCarousel() {
     )
 }
 
-export default ContentCarousel
+export default ContentCarousel;

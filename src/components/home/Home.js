@@ -2,16 +2,14 @@ import React from 'react';
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import ContentTabs from './ContentTabs';
-import ContentNav from './ContentNav';
-import ContentCarousel from './ContentCarousel';
-import ContentAccordion from './ContentAccordion';
+import ContentCarousel from "./ContentCarousel";
+import ContentAccordion from "./ContentAccordion";
+import ContentTabs from "./ContentTabs";
 
 
 function Home() {
     return (
         <>
-            <ContentNav />
             <ContentCarousel />
             <Container>
                 <h2>We do YAY things</h2>
@@ -36,4 +34,4 @@ function Home() {
     )
 }
 
-export default Home
+export default Home;

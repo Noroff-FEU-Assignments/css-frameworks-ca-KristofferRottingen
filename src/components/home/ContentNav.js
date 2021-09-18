@@ -32,4 +32,4 @@ function ContentNav() {
     )
 }
 
-export default ContentNav
+export default ContentNav;

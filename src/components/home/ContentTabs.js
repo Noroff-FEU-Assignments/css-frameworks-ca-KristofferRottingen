@@ -1,9 +1,9 @@
 import React from 'react'
 import Tabs from "react-bootstrap/Tabs";
 import Tab from "react-bootstrap/Tab";
-import TabImage1 from "../Images/Tab images/tab-1.jpg";
-import TabImage2 from "../Images/Tab images/tab-2.jpg";
-import TabImage3 from "../Images/Tab images/tab-3.jpg";
+import TabImage1 from "../../Images/Tab images/tab-1.jpg";
+import TabImage2 from "../../Images/Tab images/tab-2.jpg";
+import TabImage3 from "../../Images/Tab images/tab-3.jpg";
 
 function ContentTabs() {
     return (
@@ -47,4 +47,4 @@ function ContentTabs() {
     )
 }
 
-export default ContentTabs
+export default ContentTabs;

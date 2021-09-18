@@ -1,16 +1,25 @@
-.card-header{
+.accordion-header{
     background-color: white;
-    margin-top: -2px;
-}
+    color: $colour-primary;
+    border-radius: 20px 20px 0 0;
+    padding: 0;
 
-
-.btn{
-    &.btn-link{
-        text-decoration: none;
+    .accordion-button{
         color: $colour-primary;
+        font-family: $font-family-base;
         font-size: 19px;
+        text-decoration: none;
+
+        &:not(.collapsed){
+            background-color: white;
+        }
+
+        &:after{
+            display: none;
+        }
     }
 }
+
 
 .collapse.show{
     border-top: 2px $colour-primary solid;
@@ -20,7 +29,7 @@
     }
 }
 
-.card-body{
+.accordion-body{
     background: $colour-nav;
     padding: 25px;
 }
