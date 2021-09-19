@@ -1,3 +1,11 @@
+.accordion{
+    @media (max-width: 767px){
+        padding-bottom: 80px;
+        margin: 0 20px 80px 20px;
+    }
+}
+
+
 .accordion-header{
     background-color: white;
     color: $colour-primary;

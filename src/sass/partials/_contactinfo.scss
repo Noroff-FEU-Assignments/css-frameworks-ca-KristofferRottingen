@@ -1,0 +1,29 @@
+.info-container{
+    display: flex;
+    flex-direction: column;
+    color: $colour-secondary;
+    margin-top: 125px;
+    margin-left: 30px;
+
+    @media (max-width: 767px){
+        margin-top: 30px;
+        margin-left: 0;
+        padding-bottom: 0px;
+    }
+
+    .info-content{
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: row;
+
+        .listing{
+            flex-direction: row;
+            list-style: none;
+        }
+    }
+
+    i{
+        color: $colour-secondary;
+        font-size: 27px;
+    }
+}

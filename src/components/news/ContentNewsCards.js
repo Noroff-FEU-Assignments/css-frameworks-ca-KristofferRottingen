@@ -28,7 +28,7 @@ function ContentNewsCards() {
                                 <Card.Text>
                                     Nunc malesuada eget est fringilla dapibus.
                                 </Card.Text>
-                                <Button variant="primary">Go somewhere</Button>
+                                <Button variant="primary">MORE</Button>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -40,7 +40,7 @@ function ContentNewsCards() {
                                 <Card.Text>
                                     Nunc malesuada eget est fringilla dapibus.
                                 </Card.Text>
-                                <Button variant="primary">Go somewhere</Button>
+                                <Button variant="primary">MORE</Button>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -52,7 +52,7 @@ function ContentNewsCards() {
                                 <Card.Text>
                                     Nunc malesuada eget est fringilla dapibus.
                                 </Card.Text>
-                                <Button variant="primary">Go somewhere</Button>
+                                <Button variant="primary">MORE</Button>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -64,12 +64,12 @@ function ContentNewsCards() {
                                 <Card.Text>
                                     Nunc malesuada eget est fringilla dapibus.
                                 </Card.Text>
-                                <Button variant="primary">Go somewhere</Button>
+                                <Button variant="primary">MORE</Button>
                             </Card.Body>
                         </Card>
                     </Col>
                 </Row>
-                <Row>
+                <Row className="sec-row">
                     <Col>
                         <Card style={{ width: '17rem' }}>
                             <Card.Img variant="top" src={NewsImg5} />
@@ -78,7 +78,7 @@ function ContentNewsCards() {
                                 <Card.Text>
                                     Nunc malesuada eget est fringilla dapibus.
                                 </Card.Text>
-                                <Button variant="primary">Go somewhere</Button>
+                                <Button variant="primary">MORE</Button>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -90,7 +90,7 @@ function ContentNewsCards() {
                                 <Card.Text>
                                     Nunc malesuada eget est fringilla dapibus.
                                 </Card.Text>
-                                <Button variant="primary">Go somewhere</Button>
+                                <Button variant="primary">MORE</Button>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -102,7 +102,7 @@ function ContentNewsCards() {
                                 <Card.Text>
                                     Nunc malesuada eget est fringilla dapibus.
                                 </Card.Text>
-                                <Button variant="primary">Go somewhere</Button>
+                                <Button variant="primary">MORE</Button>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -114,7 +114,7 @@ function ContentNewsCards() {
                                 <Card.Text>
                                     Nunc malesuada eget est fringilla dapibus.
                                 </Card.Text>
-                                <Button variant="primary">Go somewhere</Button>
+                                <Button variant="primary">MORE</Button>
                             </Card.Body>
                         </Card>
                     </Col>

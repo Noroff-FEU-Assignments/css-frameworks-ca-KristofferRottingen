@@ -1,0 +1,116 @@
+// Container ---->
+
+.contact-row{
+
+    @media (max-width: 767px){
+        display: flex;
+        flex-direction: column-reverse;
+        
+    }
+}
+
+.contact-form{
+    padding-bottom: 80px;
+    margin-bottom: 80px;
+    @media (max-width: 767px){
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+//  Form ---->
+
+.content-form{
+    max-width: 600px;
+    padding: 30px;
+    background-color: $colour-nav;
+    margin-right: 40px;
+    box-shadow: 0 6px 10px $colour-box-shadow;
+
+    @media(max-width: 991px){
+        margin: 0;
+    }
+
+    .mb-3{
+        .form-label{
+            color: $colour-secondary;
+            font-size: 20px;
+        }
+
+        .form-control{
+            border-radius: 3px;
+            margin-bottom: 20px;
+            padding: 10px 12px;
+        }
+
+        &.website::before{
+            content: "https://";
+            position: absolute;
+            height: 44px;
+            background-color: #C7C7C7;
+            width: 71px;
+            border-radius: 3px 0 0 3px;
+            margin-top: 38px;
+            color: white;
+            padding: 10px;
+
+            @media(max-width: 991px){
+                display: none;
+            }
+
+        }
+
+    }
+
+    .btn{
+        width: 100%;
+        background-color: $colour-secondary;
+        color: white;
+        border: none;
+        padding: 12px;
+        font-size: 22px;
+
+        &:hover{
+            box-shadow: 0 6px 10px $colour-box-shadow;
+        }
+    }
+    
+}
+
+.col{
+    h1{
+        padding-bottom: 30px;
+    }
+}
+
+#formBasicWebsite{
+    padding-left: 75px;
+
+    @media(max-width: 991px){
+        padding-left: 12px;
+    }
+}
+
+.form-check{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 30px;
+
+    .form-check-input{
+        padding: 16px;
+        margin-right: 20px;
+        border: none;
+        background-color: $colour-primary;
+    }
+
+    .form-check-label{
+        color: $colour-secondary;
+        font-size: 13px;
+    }
+
+}
+
+
+    

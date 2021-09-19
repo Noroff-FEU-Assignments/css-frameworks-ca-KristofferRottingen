@@ -7,7 +7,7 @@ import ContentNewsCards from "./ContentNewsCards";
 function News() {
     return (
         <>
-            <Container>
+            <Container className="news-container">
                 <h1>News</h1>
                 <Pagination />
                 <ContentNewsCards />

@@ -1,5 +1,6 @@
 .pagination{
     padding-top: 39px;
+    margin-bottom: 30px;
 }
 
 
@@ -7,9 +8,19 @@
     color: $colour-primary;
     border: 1px solid $colour-primary;
     padding: 6px 15px;
+
+    &:hover{
+        background-color: $colour-primary;
+        color: white;
+        border: 1px $colour-primary;
+    }
 }
 
 .page-item.active .page-link{
     border-color: $colour-primary;
     background-color: $colour-primary;
+}
+
+.bottom-pag{
+    padding-bottom: 30px;
 }

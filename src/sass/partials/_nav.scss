@@ -16,21 +16,19 @@
     color: transparent;
 }
 
-.nav-link{
-    margin-right: 20px;
-    &.active{
-        background-color: white;
-        border-radius: 6px;
-    }
-}
 
 .navbar-light .navbar-nav .nav-link{
     color: black;
+    padding-left: 10px;
 
     &:hover{
         background-color: white;
         border-radius: 6px;
         color: black;
+
+        @media (max-width: 991px){
+            border-radius: 0;
+        }
     }
 }
 
@@ -40,6 +38,20 @@
 
     @media (max-width: 991px){
         flex-direction: column;
+    }
+
+    .nav-link{
+        margin-right: 20px;
+    
+        &.active{
+            background-color: white;
+            border-radius: 6px;
+    
+            @media (max-width: 991px){
+                border-radius: 0;
+            }
+        }
+        
     }
 }
 

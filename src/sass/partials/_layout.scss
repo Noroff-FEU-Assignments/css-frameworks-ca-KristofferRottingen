@@ -8,11 +8,20 @@ body{
     flex-direction: column;
 }
 
+.news-container{
+    padding-bottom: 10rem;
+
+    @media (max-width: 767px){
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
 
 
 footer{
     display: flex;
-    flex-shrink: 0;
     justify-content: space-between;
     background-color: white;
     color: $colour-secondary;
@@ -22,6 +31,7 @@ footer{
     bottom: 0;
     left: 0;
     width: 100%;
+    z-index: 1000;
 
     i{
         color: $colour-secondary;

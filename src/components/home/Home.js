@@ -19,7 +19,7 @@ function Home() {
                 <Row>
                     <Col>
                         <ContentAccordion />
-                        <div className="d-none d-md-block">
+                        <div className="d-none d-md-block tab-container">
                             <ContentTabs />
                         </div>
                     </Col>

@@ -1,8 +1,8 @@
 .col{
-    padding: 20px 12px;
+    padding: 20px 7px;
+    padding-left: 0;
 
     .card{
-        height: 394px;
         border-radius: 10px;
         box-shadow: 0 6px 10px $colour-box-shadow;
 
@@ -10,15 +10,52 @@
             border-radius: 10px 10px 0 0; 
         }
     }
+
+    @media (max-width: 767px){
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-right: 0;
+    }
+}
+
+
+.sec-row{
+    @media (max-width: 767px){
+        display: none;
+    }
 }
 
 
 
 .card-body{
+    padding: 30px;
+
     p{
         font-size: 18px;
         padding: 19px 0px;
     }
 
+    .btn{
+        margin-top: 15px;
+        width: 100%;
+        color: white;
+        padding: 10px;
+
+        &::after{
+            content: "";
+            position: absolute;
+            right: 30px;
+            bottom: 30px;
+            height: 46px;
+            background-color: $colour-secondary;
+            width: 32px;
+            border-radius: 0 4px 4px 0;
+        }
+
+        &:hover{
+            box-shadow: 0 6px 12px $colour-box-shadow;
+        }
+    }
     
 }
